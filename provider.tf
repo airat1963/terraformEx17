@@ -11,7 +11,7 @@ terraform {
 # Инициализация провайдера Yandex.Cloud
 provider "yandex" {
 
-  //token     = "y0_AgAAAAAeR3RAAAxSDwAAAAEOrTZ_AABH2orPA0tO_Z8q1RPisnsS4sJdRg"
+  
   service_account_key_file ="C:/Users/univer/terraform4bucket/keyIAM.json" 
 
   cloud_id  = "b1gjkqhfee2fvrk4s12a"
