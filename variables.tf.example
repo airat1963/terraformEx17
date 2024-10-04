@@ -1,0 +1,45 @@
+variable "folder_id" {
+  type        = string
+  description = "Yandex Cloud Folder ID"
+  default="b1g77g5lrul51pldt28m"
+}
+variable "cloud_id" {
+  type        = string
+  description = "Yandex Cloud Folder ID"
+  default="b1gjkqhfee2fvrk4s12a"
+}
+
+variable "zone" {
+  type        = string
+  description = "Zone for Yandex Cloud resources"
+  default="ru-central1-a"
+}
+
+
+
+variable "image_id" {
+  type        = string
+  description = "ID of the image for the virtual machine"
+}
+
+variable "service_account_id" {
+  type        = string
+  description = "ID of service account"
+}
+
+
+variable "public_key_path" {
+  type        = string
+  description = "Path to the public key file"
+}
+
+variable "private_key_path" {
+  type        = string
+  description = "Path to the private key file"
+}
+
+variable "token" {
+  type        = string
+  description = "Yandex Cloud OAuth token"
+  default="t1.9euelZqdicmPisjJksvNm5OXyMeWme3rnpWaxpuPk5OJm4-Ni8fJx5nOkMvl8_dGS0BI-e8KX0UU_t3z9wZ6PUj57wpfRRT-zef1656Vmo-di8qSjsuUl5aYlZGZjseX7_zF656Vmo-di8qSjsuUl5aYlZGZjseX.JmDBs_RSFVa_L48_sjZzvy-1fyXHzVPEPEew7oJDrk6OVbEEErb0fUfcwsaAH-OaxaPlAz4rNrtVx2yf2SnWCQ"
+}
