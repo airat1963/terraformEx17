@@ -1,8 +1,0 @@
-resource "yandex_compute_disk" "data_disk" {
-  name     = "my-data-disk"
-  type="network-hdd"
-  zone     = var.zone
-  image_id = var.image_id
-  size     = 30
-}
-
